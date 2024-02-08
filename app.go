@@ -24,10 +24,10 @@ func main() {
 	// var wg sync.WaitGroup
 	for index := range urls {
 		// wg.Add(1)
-		// step2qr(&index, &urls[index])
+		step2qr(&index, &urls[index])
 		// processBoombuler(&index, &urls[index])
 		// processPiglig(&index, &urls[index])
-		yeqownqr(&index, &urls[index])
+		// yeqownqr(&index, &urls[index])
 	}
 	// wg.Wait()
 	elapsed := time.Since(start)
